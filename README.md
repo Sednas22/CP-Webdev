@@ -11,5 +11,5 @@ CP desenvolvida por Cainã Sandes Batista, RM: 568571. <br> apresentado ao curso
 O projeto tem como finalidade calcular a duração de uma reunião ao inserir o horário em que ela começa e termina, em horas e minutos. <br>
 Consequetemente fixando o trabalho com as linguagens: html e js.<p>
 <h3>Desenvolvimento:</h3> <p>
-Foi desenvolvido o envio de informações entre html e js, a definição de id's, o armazenamento de variáveis, a aplicação de funções, a realização de contas, aplicação de condições, atualização de variável/valor e exibição de resultado. <p>
+Foi desenvolvido o envio de informações entre html e js, a definição de id's, o armazenamento de variáveis, a aplicação de funções, a realização de contas, aplicação de condições, limitação de caracteres, atualização de variável/valor e exibição de resultado. <p>
 Além da estilização do site e organização do código por opção, visando o entendimento de programadores e imersão do usuário.
