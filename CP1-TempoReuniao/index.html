@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-b">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP Webdev</title>
+</head>
+<body>
+    <center>
+    <h1>Webdev CP01 - Ex01</h1>
+<h3>
+    Calcular o tempo de duração da reunião.
+</h3>
+<div>
+    <span><strong>Início:</strong></span>
+    <span>Horas</span>
+    <input style="width:30px" id="h1" type="text" value="00" maxlength="2" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+    <span>Minutos</span>
+    <input style="width:30px" id="m1" type="text" value="00" maxlength="2" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+</div>
+<div>
+</div>
+    <span><strong>Término:</strong></span>
+    <span>Horas</span>
+    <input style="width:30px" id="h2" type="text" value="00" maxlength="2" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+    <span>Minutos</span>
+    <input style="width:30px" id="m2" type="text" value="00" maxlength="2" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+</div>
+<div style="margin-top:10px">
+    <button onclick="calcular()">Calcular duração</button>
+</div>
+<h2>
+    Duração:
+    <span id="horas">00</span>:<span id="minutos">00</span>
+</h2>
+</center>
+</body>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+  }
+
+  input {
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+
+  button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  button:hover {
+    background: darkblue;
+  }
+
+  #horas, #minutos {
+    font-weight: bold;
+    font-size: 28px;
+    color: blue;
+  }
+</style>
+
+<script src="main.js"></script>
+</html>
+
+
+ 
