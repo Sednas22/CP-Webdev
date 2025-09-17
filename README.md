@@ -1,4 +1,4 @@
-# CP-Webdev <br>
+# CP1-Webdev <br>
 CP desenvolvida por Cainã Sandes Batista, RM: 568571. <br> apresentado ao curso de Engenharia de Software. <hr>
 <h3>Arquivos:</h3> <p>
 <b>index.html <br>
